@@ -143,7 +143,7 @@ function ParallaxForestSection() {
           className="absolute inset-0 w-full h-full will-change-transform"
         >
           <img
-            src="/img10.svg"
+            src={`${import.meta.env.BASE_URL}img10.svg`}
             alt="Sky and Moon"
             className="w-full h-full object-cover object-top translate-y-[6vh] sm:translate-y-[8vh] scale-[1.05]"
             loading="eager"
@@ -156,7 +156,7 @@ function ParallaxForestSection() {
           className="absolute inset-0 w-full h-full will-change-transform z-10"
         >
           <img
-            src="/img20.svg"
+            src={`${import.meta.env.BASE_URL}img20.svg`}
             alt="Mountain"
             className="w-full h-full object-cover object-top translate-y-[6vh] sm:translate-y-[8vh] scale-[1.05]"
             loading="eager"
@@ -169,7 +169,7 @@ function ParallaxForestSection() {
           className="absolute inset-0 w-full h-full will-change-transform z-20"
         >
           <img
-            src="/img30.svg"
+            src={`${import.meta.env.BASE_URL}img30.svg`}
             alt="Character standing on ridge"
             className="w-full h-full object-cover object-top translate-y-[6vh] sm:translate-y-[8vh] scale-[1.05]"
             loading="eager"
@@ -182,7 +182,7 @@ function ParallaxForestSection() {
           className="absolute inset-0 w-full h-full will-change-transform z-40 origin-[50%_65%] pointer-events-none"
         >
           <img
-            src="/hutan.svg"
+            src={`${import.meta.env.BASE_URL}hutan.svg`}
             alt="Forest Canopy Frame"
             className="w-full h-full object-cover object-top translate-y-[2vh] sm:translate-y-[3vh] scale-[1.02]"
             loading="eager"

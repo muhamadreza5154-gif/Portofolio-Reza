@@ -26,6 +26,7 @@ const WelcomeScreen = lazy(() => import("./Pages/WelcomeScreen"));
 const NotFoundPage = lazy(() => import("./Pages/404"));
 const Login = lazy(() => import("./Pages/Login"));
 const Dashboard = lazy(() => import("./Pages/Dashboard"));
+const routerBasename = import.meta.env.BASE_URL.replace(/\/$/, "") || "/";
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -96,7 +97,7 @@ function App() {
       <div className="pointer-events-none">
         <AnimatedBackground />
       </div>
-      <BrowserRouter>
+      <BrowserRouter basename={routerBasename}>
         <Routes>
           {/* PUBLIC */}
           <Route path="/" element={<LandingPage />} />

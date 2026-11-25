@@ -96,7 +96,7 @@ const ProfileImage = memo(() => {
             onMouseLeave={handleMouseLeave}
           >
             <img
-              src="/foto saya.png"
+              src={`${import.meta.env.BASE_URL}foto saya.png`}
               alt="Profile"
               decoding="async"
               className="absolute inset-0 w-full h-full object-contain object-bottom pointer-events-none"
@@ -108,7 +108,7 @@ const ProfileImage = memo(() => {
                 className="absolute inset-0 pointer-events-none z-10 animate-spiderman-hint"
                 onAnimationEnd={() => setHintDone(true)}
               >
-                <img src="/saya spiderman.webp" alt="Hint" decoding="async" className="w-full h-full object-contain object-bottom" />
+                <img src={`${import.meta.env.BASE_URL}saya spiderman.webp`} alt="Hint" decoding="async" className="w-full h-full object-contain object-bottom" />
               </div>
             )}
 
@@ -117,7 +117,7 @@ const ProfileImage = memo(() => {
                 className="absolute inset-0 pointer-events-none z-10"
                 style={{ WebkitMaskImage: maskImage, maskImage, WebkitMaskRepeat: "no-repeat", maskRepeat: "no-repeat" }}
               >
-                <img src="/saya spiderman.webp" alt="Reveal" decoding="async" className="w-full h-full object-contain object-bottom" />
+                <img src={`${import.meta.env.BASE_URL}saya spiderman.webp`} alt="Reveal" decoding="async" className="w-full h-full object-contain object-bottom" />
               </motion.div>
             )}
 

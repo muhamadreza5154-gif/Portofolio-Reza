@@ -213,7 +213,7 @@ const Home = () => {
               style={{ transformOrigin: "center bottom" }}
             >
               <img
-                src="/img10.svg"
+                src={`${import.meta.env.BASE_URL}img10.svg`}
                 alt="Sky and Moon"
                 className="w-full h-full object-cover"
                 style={{ objectPosition: "center 22%" }}
@@ -230,7 +230,7 @@ const Home = () => {
               style={{ transformOrigin: "center bottom" }}
             >
               <img
-                src="/img20.svg"
+                src={`${import.meta.env.BASE_URL}img20.svg`}
                 alt="Mountain Peak"
                 className="w-full h-full object-cover"
                 style={{ objectPosition: "center 52%" }}
@@ -267,7 +267,7 @@ const Home = () => {
               style={{ transformOrigin: "center 42%" }}
             >
               <img
-                src="/hutan.svg"
+                src={`${import.meta.env.BASE_URL}hutan.svg`}
                 alt="Forest Canopy Frame"
                 className="w-full h-full object-cover object-bottom"
                 loading="eager"

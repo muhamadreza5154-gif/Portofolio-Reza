@@ -100,7 +100,7 @@ const SocialLinks = () => {
       <div className="mt-5 pt-1">
         <div className="relative w-full rounded-2xl overflow-hidden border border-zinc-200/80 shadow-sm group">
           <img
-            src="/foto-saya.png"
+            src={`${import.meta.env.BASE_URL}foto-saya.png`}
             alt="Event Activity"  
             className="w-full h-auto block transition-transform duration-500 ease-out group-hover:scale-105"
             loading="lazy"

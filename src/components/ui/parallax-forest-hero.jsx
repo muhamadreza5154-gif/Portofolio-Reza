@@ -270,7 +270,7 @@ export default function ParallaxForestHero() {
           className="absolute inset-0 w-full h-full will-change-transform"
         >
           <img
-            src="/img10.svg"
+            src={`${import.meta.env.BASE_URL}img10.svg`}
             alt="Sky and Moon"
             className="w-full h-full object-cover object-center"
             loading="eager"
@@ -283,7 +283,7 @@ export default function ParallaxForestHero() {
           className="absolute inset-0 w-full h-full will-change-transform z-10"
         >
           <img
-            src="/img20.svg"
+            src={`${import.meta.env.BASE_URL}img20.svg`}
             alt="Mountain"
             className="w-full h-full object-cover object-center"
             loading="eager"
@@ -296,7 +296,7 @@ export default function ParallaxForestHero() {
           className="absolute inset-0 w-full h-full will-change-transform z-20"
         >
           <img
-            src="/img30.svg"
+            src={`${import.meta.env.BASE_URL}img30.svg`}
             alt="Character standing on ridge"
             className="w-full h-full object-cover object-center"
             loading="eager"
@@ -309,7 +309,7 @@ export default function ParallaxForestHero() {
           className="absolute inset-0 w-full h-full will-change-transform z-40 origin-[50%_50%] pointer-events-none"
         >
           <img
-            src="/hutan.svg"
+            src={`${import.meta.env.BASE_URL}hutan.svg`}
             alt="Forest Canopy Frame"
             className="w-full h-full object-cover object-center"
             loading="eager"
