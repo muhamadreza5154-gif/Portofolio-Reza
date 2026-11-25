@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850">
+  <rect width="1200" height="850" fill="#0f172a"/>
+  <rect x="80" y="80" width="1040" height="690" rx="12" fill="none" stroke="#fbbf24" stroke-opacity=".6" stroke-width="8"/>
+  <rect x="110" y="110" width="980" height="630" rx="6" fill="none" stroke="#fbbf24" stroke-opacity=".3" stroke-width="3"/>
+  <text x="600" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#fbbf24">SERTIFIKAT</text>
+  <rect x="380" y="380" width="440" height="10" rx="5" fill="#94a3b8" fill-opacity=".5"/>
+  <rect x="300" y="430" width="600" height="10" rx="5" fill="#94a3b8" fill-opacity=".35"/>
+  <rect x="340" y="470" width="520" height="10" rx="5" fill="#94a3b8" fill-opacity=".35"/>
+  <circle cx="600" cy="610" r="60" fill="#fbbf24" fill-opacity=".35"/>
+  <text x="600" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#cbd5e1">Gambar Sertifikat</text>
+</svg>
