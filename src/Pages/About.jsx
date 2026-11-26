@@ -215,6 +215,10 @@ const FALLBACK_EXPERIENCES = [
 
 const CompanyLogoBadge = memo(({ logo, name }) => {
   if (logo) {
+    const logoUrl = /^https?:\/\//i.test(logo)
+      ? logo
+      : `${import.meta.env.BASE_URL}${logo.replace(/^\/+/, "")}`
+
     return (
       <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 p-1 flex items-center justify-center flex-shrink-0 overflow-hidden">
         <img
