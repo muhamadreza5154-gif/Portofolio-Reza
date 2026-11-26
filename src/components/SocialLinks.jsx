@@ -5,7 +5,7 @@ const socialLinks = [
     name: "LinkedIn",
     displayName: "Let's Connect",
     subText: "on LinkedIn",
-    icon: "/linkedin-logo-linkedin-icon-transparent-free-png.webp",
+    icon: "linkedin-logo-linkedin-icon-transparent-free-png.webp",
     url: "https://www.linkedin.com/in/username",
     iconScale: "scale-[1.7] group-hover:scale-[1.85]",
     darkBadge: false,
@@ -14,7 +14,7 @@ const socialLinks = [
     name: "Instagram",
     displayName: "Instagram",
     subText: "@call_merein",
-    icon: "/Instagram_icon.webp",
+    icon: "Instagram_icon.webp",
     url: "https://www.instagram.com/call_merein?lqvp=MXgzMzBoZTVncjg3MQ%3D%3D&utm_source=qr",
     iconScale: "group-hover:scale-105",
     darkBadge: false,
@@ -23,7 +23,7 @@ const socialLinks = [
     name: "GitHub",
     displayName: "GitHub",
     subText: "@muhamadreza5154-gif",
-    icon: "/github.png",
+    icon: "github.png",
     url: "https://github.com/muhamadreza5154-gif",
     iconScale: "group-hover:scale-105",
     darkBadge: false,
@@ -32,7 +32,7 @@ const socialLinks = [
     name: "TikTok",
     displayName: "TikTok",
     subText: "@lielikeaizen",
-    icon: "/tiktok.svg",
+    icon: "tiktok.svg",
     url: "https://www.tiktok.com/@lielikeaizen",
     iconScale: "group-hover:scale-105",
     darkBadge: true,
@@ -53,7 +53,7 @@ const SocialRow = ({ link }) => (
       }`}
     >
       <img
-        src={link.icon}
+        src={`${import.meta.env.BASE_URL}${link.icon}`}
         alt={link.name}
         className={`w-full h-full object-contain transition-transform duration-300 ${link.iconScale}`}
       />
