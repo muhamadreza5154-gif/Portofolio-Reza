@@ -231,6 +231,7 @@ export default function FullWidthTabs({ children }) {
       id="Portofolio"
       word="PORTOFOLIO"
       scrollLength={1.7}
+      enterLabel="Scroll down to explore"
       fontFamily='"Arial Black", "Arial", sans-serif'
       fontWeight={900}
       interactive={true}
