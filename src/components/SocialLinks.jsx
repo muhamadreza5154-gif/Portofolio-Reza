@@ -6,7 +6,7 @@ const socialLinks = [
     displayName: "Let's Connect",
     subText: "on LinkedIn",
     icon: "linkedin-logo-linkedin-icon-transparent-free-png.webp",
-    url: "https://www.linkedin.com/in/username",
+    url: "https://www.linkedin.com/in/muhamad-reza-121451452",
     iconScale: "scale-[1.7] group-hover:scale-[1.85]",
     darkBadge: false,
   },
