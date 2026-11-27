@@ -57,9 +57,9 @@ const Home = () => {
           opacity: 0,
           y: 12,
           ease: "power1.out",
-          duration: 0.12,
+          duration: 0.18,
         },
-        0
+        0.22
       );
 
       /* ══════════════════════════════════════════════════════════
@@ -293,12 +293,12 @@ const Home = () => {
 
           <div
             ref={scrollHintRef}
-            className="absolute inset-x-0 bottom-7 z-[50] flex flex-col items-center gap-1 text-center text-white/85 pointer-events-none"
+            className="absolute inset-x-0 bottom-10 z-[50] flex flex-col items-center gap-1.5 text-center text-white pointer-events-none"
           >
-            <span className="rounded-full border border-white/20 bg-black/40 px-4 py-2 text-[0.65rem] font-semibold tracking-[0.24em] backdrop-blur-md shadow-lg">
+            <span className="rounded-full border border-white/35 bg-black/70 px-5 py-2.5 text-xs sm:text-sm font-bold tracking-[0.2em] backdrop-blur-md shadow-lg">
               SCROLL DOWN TO EXPLORE
             </span>
-            <ChevronDown className="h-5 w-5 animate-bounce drop-shadow-md" aria-hidden="true" />
+            <ChevronDown className="h-6 w-6 animate-bounce motion-reduce:animate-none drop-shadow-md" aria-hidden="true" />
           </div>
         </div>
       </section>
