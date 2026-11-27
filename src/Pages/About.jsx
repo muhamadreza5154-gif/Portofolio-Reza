@@ -514,7 +514,7 @@ const AboutPage = () => {
               </h3>
               <div className="mt-8">
                 <a
-                  href="https://drive.google.com/file/d/1IUbBOfWQwr_CjmydMKqcw21nS1ZpZw69/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1177UQ3Fvy7BxQslDCz3wOpZwbBd_McLd/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -580,7 +580,7 @@ const AboutPage = () => {
             {/* Buttons — full width, stacked */}
             <div className="flex flex-col gap-3 w-full">
               <a
-                href="https://drive.google.com/file/d/1IUbBOfWQwr_CjmydMKqcw21nS1ZpZw69/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1177UQ3Fvy7BxQslDCz3wOpZwbBd_McLd/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full"
