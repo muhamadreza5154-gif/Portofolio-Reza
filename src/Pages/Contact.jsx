@@ -123,9 +123,9 @@ const ContactPage = () => {
           reduceMotion
             ? undefined
             : {
-                opacity: revealOpacity,
-                y: revealY,
-              }
+              opacity: revealOpacity,
+              y: revealY,
+            }
         }
         className="will-change-transform"
       >
@@ -153,7 +153,9 @@ const ContactPage = () => {
                       Hubungi
                     </h2>
                     <p className="text-zinc-600 text-sm sm:text-base leading-relaxed">
-                      Ada yang mau didiskusikan? Langsung kirim pesan aja ya..!
+                      Tertarik untuk mengenal lebih lanjut?
+
+                      Saya terbuka untuk dihubungi terkait peluang karier, proses rekrutmen, maupun kesempatan kolaborasi profesional. Silakan sampaikan pesan melalui formulir yang tersedia.
                     </p>
                   </div>
                 </div>
