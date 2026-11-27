@@ -571,7 +571,7 @@
           <div data-gp-caption>
             <a data-gp-enter href={`#${uid}-content`}>
               {enterLabel}
-              <span aria-hidden="true">↘</span>
+              <span aria-hidden="true">↓</span>
             </a>
           </div>
         </div>
