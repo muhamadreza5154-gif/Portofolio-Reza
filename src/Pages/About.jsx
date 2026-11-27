@@ -185,7 +185,7 @@ const FALLBACK_EXPERIENCES = [
   {
     id: "exp-1",
     company: "Suku Dinas KOMINFOTIK KABUPATEN ADMINISTRASI KEPUALAUN SERIBU",
-    role: "Front-End Development",
+    role: "Front-End Developer",
     year: "2026",
     subtitle: "Kota",
     tag: "Internship",
@@ -194,7 +194,7 @@ const FALLBACK_EXPERIENCES = [
   {
     id: "exp-2",
     company: "UI/UX Design for a Septic Tank Pumping Service App",
-    role: "Web Development",
+    role: "Web Developer",
     year: "2024",
     subtitle: "Kampus",
     tag: "Community",
@@ -203,7 +203,7 @@ const FALLBACK_EXPERIENCES = [
   {
     id: "exp-3",
     company: "Web-Based Payroll System",
-    role: "Web Development",
+    role: "Web Developer",
     year: "2024",
     subtitle: "Kampus",
     tag: "Community",
