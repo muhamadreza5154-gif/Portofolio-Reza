@@ -536,9 +536,7 @@ const AboutPage = () => {
             {/* Right: Description + View Projects */}
             <div className="min-w-0 space-y-6 text-left" data-aos="fade-left" data-aos-duration="1000">
               <div className="text-base sm:text-lg leading-relaxed" style={{ color: "var(--col-muted)" }}>
-                <p>Sebagai seorang developer dan desainer kreatif,
-                  Aku berfokus pada pengembangan teknologi yang tidak hanya fungsional,
-                  tetapi juga menghadirkan pengalaman digital yang menarik dan berdampak.</p>
+                <p>Fullstack Developer.</p>
               </div>
               <div className="mt-8">
                 <a
@@ -577,9 +575,7 @@ const AboutPage = () => {
             </h3>
             {/* Description */}
             <div className="text-base sm:text-lg leading-relaxed text-left w-full" style={{ color: "var(--col-muted)" }}>
-              <p>Sebagai seorang developer dan desainer kreatif,
-                Aku berfokus pada pengembangan teknologi yang tidak hanya fungsional,
-                tetapi juga menghadirkan pengalaman digital yang menarik dan berdampak.</p>
+              <p>Fullstack Developer.</p>
             </div>
             {/* Buttons — full width, stacked */}
             <div className="flex flex-col gap-3 w-full">
