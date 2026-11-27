@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
+import { ChevronDown } from "lucide-react";
 
 const Home = () => {
   const containerRef = useRef(null);
@@ -11,6 +12,7 @@ const Home = () => {
   const mountainRef = useRef(null);
   const titleRef = useRef(null);
   const forestRef = useRef(null);
+  const scrollHintRef = useRef(null);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -48,6 +50,17 @@ const Home = () => {
           scrub: 1,
         },
       });
+
+      tl.to(
+        scrollHintRef.current,
+        {
+          opacity: 0,
+          y: 12,
+          ease: "power1.out",
+          duration: 0.12,
+        },
+        0
+      );
 
       /* ══════════════════════════════════════════════════════════
          STAGE 1 (Progress 0.0 → 0.22):
@@ -276,6 +289,16 @@ const Home = () => {
 
             {/* Seamless Base Blend (.parallax__fade into About Me) */}
             <div className="parallax__fade absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-[#030712] via-[#030712]/90 to-transparent pointer-events-none z-[35]" />
+          </div>
+
+          <div
+            ref={scrollHintRef}
+            className="absolute inset-x-0 bottom-7 z-[50] flex flex-col items-center gap-1 text-center text-white/85 pointer-events-none"
+          >
+            <span className="rounded-full border border-white/20 bg-black/40 px-4 py-2 text-[0.65rem] font-semibold tracking-[0.24em] backdrop-blur-md shadow-lg">
+              SCROLL DOWN TO EXPLORE
+            </span>
+            <ChevronDown className="h-5 w-5 animate-bounce drop-shadow-md" aria-hidden="true" />
           </div>
         </div>
       </section>
