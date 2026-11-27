@@ -194,7 +194,7 @@ const FALLBACK_EXPERIENCES = [
   {
     id: "exp-2",
     company: "UI/UX Design for a Septic Tank Pumping Service App",
-    role: "Web Developer",
+    role: "Web Full Stack Developer",
     year: "2024",
     subtitle: "Kampus",
     tag: "Community",
@@ -203,7 +203,7 @@ const FALLBACK_EXPERIENCES = [
   {
     id: "exp-3",
     company: "Web-Based Payroll System",
-    role: "Web Developer",
+    role: "Web Full Stack Developer",
     year: "2024",
     subtitle: "Kampus",
     tag: "Community",
